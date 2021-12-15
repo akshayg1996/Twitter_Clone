@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/akshay/Documents/GitHub/Twitter_Clone/Proj4_2.fsproj": {}
+    "D:\\UFL\\Projects\\GitHub\\Twitter_Clone\\Proj4_2.fsproj": {}
   },
   "projects": {
-    "/Users/akshay/Documents/GitHub/Twitter_Clone/Proj4_2.fsproj": {
+    "D:\\UFL\\Projects\\GitHub\\Twitter_Clone\\Proj4_2.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/akshay/Documents/GitHub/Twitter_Clone/Proj4_2.fsproj",
+        "projectUniqueName": "D:\\UFL\\Projects\\GitHub\\Twitter_Clone\\Proj4_2.fsproj",
         "projectName": "Proj4_2",
-        "projectPath": "/Users/akshay/Documents/GitHub/Twitter_Clone/Proj4_2.fsproj",
-        "packagesPath": "/Users/akshay/.nuget/packages/",
-        "outputPath": "/Users/akshay/Documents/GitHub/Twitter_Clone/obj/",
+        "projectPath": "D:\\UFL\\Projects\\GitHub\\Twitter_Clone\\Proj4_2.fsproj",
+        "packagesPath": "C:\\Users\\Akshay\\.nuget\\packages\\",
+        "outputPath": "D:\\UFL\\Projects\\GitHub\\Twitter_Clone\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/akshay/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Akshay\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp5.0"
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
