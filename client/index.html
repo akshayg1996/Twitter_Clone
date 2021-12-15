@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body style="background-color:darkslateblue">
+  <nav class="deep-orange accent-3" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Twitter Clone</a>
+      <ul class="right hide-on-med-and-down" id="logout_link">
+        <li><a href="#" id="logout">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <div class="row" id="register">
+        <div class="col s12 m8 l4 offset-m2 offset-l4">
+          <div class="card">
+      
+            <div class="card-action white-text grey darken-3">
+              <h3>Register</h3>
+            </div>
+      
+            <div class="card-content">
+              <div class="form-field">
+                <label for="register_username">Username</label>
+                <input type="text" id="register_username">
+              </div><br>
+      
+              <div class="form-field">
+                <label for="register_password">Password</label>
+                <input type="password" id="register_password">
+              </div><br>      
+              <div class="form-field">
+                <button class="btn-large waves-effect waves-dark grey darken-3" style="width:100%;" id="register_form">Register</button>
+              </div><br>
+              <div class="form-field">
+                <button class="btn-large waves-effect waves-dark grey darken-3" style="width:100%;" id="login_button">Existing User? Login</button>
+              </div><br>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      <div class="row" id="login">
+        <div class="col s12 m8 l4 offset-m2 offset-l4">
+          <div class="card">
+      
+            <div class="card-action grey darken-3 white-text">
+              <h3>Login</h3>
+            </div>
+      
+            <div class="card-content">
+              <div class="form-field">
+                <label for="login_username">Username</label>
+                <input type="text" id="login_username">
+              </div><br>
+      
+              <div class="form-field">
+                <label for="login_password">Password</label>
+                <input type="password" id="login_password">
+              </div><br>      
+              <div class="form-field">
+                <button class="btn-large waves-effect waves-dark grey darken-3" style="width:100%;" id="login_form">Login</button>
+              </div><br>
+              <div class="form-field">
+                <button class="btn-large waves-effect waves-dark grey darken-3" style="width:100%;" id="register_button">New User? Register</button>
+              </div><br>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="user_page">
+      <div class ="col s4">
+        <ul class="collection with-header" id="live-feed">
+          <li class="collection-header"><h4>Live Feed</h4></li>
+        </ul>
+      </div>
+      <div class = "col s4">
+        <div class="row">
+          <div class="col s12">
+              <div class="row">
+                  <div class="input-field col s6">
+                      <input id="tweet_input" type="text">
+                      <label for="tweet_input">Tweet</label>
+                  </div>
+                  <div class="input-field col s6">
+                      <button class="btn waves-effect waves-light grey darken-3" id="tweet_button">Tweet
+                      </button>
+                  </div>
+              </div>
+          </div>
+       </div>
+       <div class="row">
+         <div class="col s8">
+            <ul class="collection with-header" id="tweets-box">
+              <li class="collection-header">
+                <h4>Tweets</h4>
+                <button class="btn waves-effect waves-light grey darken-3" style="float: right; margin-top:-50px" id="getTweets">Get Tweets
+                </button>
+              </li>
+            </ul>
+         </div>
+     </div>
+     <div class="row">
+      <div class="col s10">
+         <ul class="collection with-header" id="mentions-box">
+           <li class="collection-header">
+             <h4>Mentions</h4>
+             <button class="btn waves-effect waves-light grey darken-3" style="float: right; margin-top:-50px" id="getMentions">Get Mentions
+             </button>
+           </li>
+         </ul>
+      </div>
+  </div>
+      </div>
+      <div class = "col s4">
+        <div class="row">
+          <div class="col s12">
+              <div class="row">
+                  <div class="input-field col s6">
+                      <input id="follow" type="text">
+                      <label for="follow">Follow</label>
+                  </div>
+                  <div class="input-field col s6">
+                      <button class="btn waves-effect waves-light grey darken-3" id="follow_button">Follow
+                      </button>
+                  </div>
+              </div>
+          </div>
+       </div>
+       <div class="row">
+        <div class="col s12">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="hashtag" type="text">
+                    <label for="hashtag">HashTag</label>
+                </div>
+                <div class="input-field col s6">
+                    <button class="btn waves-effect waves-light grey darken-3" id="hashtag_button">Get HashTags
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col s9">
+                <ul class="collection with-header" id="hashtags-box">
+                  <li class="collection-header">
+                    <h4>HashTags</h4>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+     </div>
+      </div>
+    </div>
+  </div>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
